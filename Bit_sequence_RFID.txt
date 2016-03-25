@@ -1,0 +1,110 @@
+#Bit streams do not contain  preamble, tag data or other training data. 
+#They are meant for validation purposes
+
+
+#Bit sequence from Reader to Tag - 1st response
+p_seq_rt[1] =
+
+  Columns 1 through 10
+
+     0     1     1     1     1     1     1     1     1     1
+
+  Columns 11 through 18
+
+     1     1     1     1     1     1     1     1
+
+#Bit-sequence from Tag to Reader -1st Response
+
+p_seq_tr[1] =
+
+  Columns 1 through 10
+
+     0     0     1     1     0     1     0     0     0     0
+
+  Columns 11 through 20
+
+     0     0     0     0     0     0     0     0     0     0
+
+  Columns 21 through 30
+
+     0     0     0     0     0     0     1     1     0     1
+
+  Columns 31 through 40
+
+     0     0     1     0     1     1     0     0     0     0
+
+  Columns 41 through 50
+
+     0     0     0     0     0     1     1     1     0     0
+
+  Columns 51 through 60
+
+     0     1     0     0     0     0     1     0     1     0
+
+  Columns 61 through 70
+
+     1     1     0     1     1     1     1     0     0     0
+
+  Columns 71 through 80
+
+     1     1     0     0     0     0     0     0     0     0
+
+  Columns 81 through 90
+
+     0     0     0     0     0     0     0     0     0     0
+
+  Columns 91 through 100
+
+     0     0     0     0     0     0     0     0     0     0
+
+  Columns 101 through 110
+
+     0     0     0     0     0     0     0     0     0     0
+
+  Columns 111 through 120
+
+     0     0     1     1     1     1     0     0     0     1
+
+  Columns 121 through 128
+
+     0     1     1     0     0     1     0     1
+
+Bit-sequence from Reader to Tag-2nd Response
+
+p_seq_rt[2] =
+
+  Columns 1 through 10
+
+     1     1     0     0     0     0     0     1     1     1
+
+  Columns 11 through 20
+
+     1     1     1     1     1     1     1     1     1     1
+
+  Columns 21 through 30
+
+     1     1     1     1     0     0     1     1     1     1
+
+  Columns 31 through 40
+
+     1     1     1     0     1     0     1     0     1     1
+
+Bit-sequence from Tag to Reader-2nd Response
+
+p_seq_tr[2] =
+
+  Columns 1 through 10
+
+     1     1     1     1     1     1     1     1     1     1
+
+  Columns 11 through 20
+
+     1     1     1     1     1     1     1     1     1     1
+
+  Columns 21 through 30
+
+     1     1     1     1     1     1     1     1     1     1
+
+  Columns 31 through 32
+
+     1     1
