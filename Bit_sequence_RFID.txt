@@ -1,5 +1,5 @@
-#Bit streams do not contain  preamble, tag data or other training data. 
-#They are meant for validation purposes
+#Bit sequences do not contain  preamble, tag data or other training data. 
+#These bit sequences are meant for validation purposes
 
 
 #Bit sequence from Reader to Tag - 1st response
