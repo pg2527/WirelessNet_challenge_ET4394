@@ -11,3 +11,4 @@ Following points are to be mentioned :
 * For Analysis purposes entire signal trace is used.
 * Four different figures of bitstreams will be generated corresponding to the R->T or T->R message
 * The derived information is displayed in the form of results in command window and also stored in Bit_sequence_RFID.txt for validation purposes.
+* The bit-sequences of R->T 1st respone, T->R 1st response, R->T 2nd response, T->R 2nd response are added in, R2T_1RP.jpg, T2R_1RP.png,R2T_2RP.png, T2R_2RP.png respectively.
